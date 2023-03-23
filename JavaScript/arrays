@@ -1,0 +1,23 @@
+var arr = [1,2,3,4,5,6,7,8,9];
+const Even = arr.filter((num) => num % 2 == 0);
+const Odd = arr.filter((num) => num % 2 == 1);
+console.log("Even Numbers Inside the Array :",Even);
+console.log("Odd Numbers Inside the Array :",Odd);
+
+let array = [4, 5, 6, 7, 8, 9, 10];
+largestNumber= 0;
+array.forEach((element) => {
+  if (largestNumber < element) {
+    largestNumber = element;
+  }
+});
+console.log("Largest Number Inside the Array :",largestNumber);
+
+var array1 = [9,6,7,8,5,4,1,2,3];
+var smallestNumber = array1[0];
+for(var i=1; i<array1.length; i++){
+    if(array1[i] < smallestNumber){
+        smallestNumber = array1[i];   
+    }
+}
+console.log("Smallest Number Inside the Array :",smallestNumber);
