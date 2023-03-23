@@ -1,25 +1,23 @@
 <html>
 
 <head>
-    <style>
-        div {
-            top: 50%;
-            left: 50%;
-            width: 30em;
-            height: 18em;
-            margin-top: -9em;
-            margin-left: -15em;
-            position: fixed;
-            text-align: center;
-        }
-    </style>
+
 </head>
 
 <body>
+    <script>
+        function submit() {
+            var firstName = document.getElementById("firstName").value;
+            console.log(firstName);
+            document.getElementById("lastName").value = firstName;
+        }
+    </script>
     <div>
-        <h1>Thank you</h1>
-        <p>Your Order </p>
-        <button>Ok</button>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName">
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" value="">
+        <button onclick="submit()">Submit</button>
     </div>
 </body>
 
