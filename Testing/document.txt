@@ -1,0 +1,30 @@
+string
+boolean
+number
+Object --- { , }
+            { key: value}
+
+
+
+1. get the input value using JavaScript by Id/class
+2. onclick function
+3. passing the Parameters in function
+
+
+1. JavaScript Event/function/method
+    a. onclick
+
+
+
+
+
+
+
+    log
+
+API
+    Post
+    get
+    delet
+    put
+
